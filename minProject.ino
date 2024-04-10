@@ -26,12 +26,12 @@ long botLastScan;                       // last time messages' scan has been don
 long nowMillis;
 
 // WiFi connection
-const char* ssid     = "POURNAMI";      // wifi name
-const char* password = "rajitha4574";      // wifi password
+const char* ssid     = "**********";      // wifi name
+const char* password = "*******";      // wifi password
 
 // Telegram bot
-#define botMyChatID "2144275777"          // reference to my phone's chat
-#define botToken "6127891460:AAEXMwF0g7x-MdRpKl_jMyJu4fkycgN-WU8"
+#define botMyChatID "*********"          // reference to my phone's chat
+#define botToken "****************************************"
 #define botName "Plant Water"
 #define botUsername "PlantWater_asking_BOT"
 TelegramBOT bot(botToken,botName,botUsername);
